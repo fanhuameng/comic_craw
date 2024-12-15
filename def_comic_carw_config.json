@@ -1,0 +1,12 @@
+{
+  "title": "",
+  "BookData" :{
+
+  },
+  "ok_chapter" : [
+    "n_index$chapter_name"
+  ],
+  "err_chapter" :[
+    "异常章节,按照上面构成来组数据"
+  ]
+}

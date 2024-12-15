@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ComicInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
+    <Series>{{ series }}</Series>
+    <Title>{{ title }}</Title>
+    <PageCount>{{page}}</PageCount>
+    <LanguageISO>{{ language }}</LanguageISO>
+    {% if writer is not none -%}
+    <Writer>{{ writer }}</Writer>
+    {%- endif %}{% if publisher is not none -%}
+    <Publisher>{{ publisher }}</Publisher>
+    {%- endif %}{% if genre is not none -%}
+    <Genre>{{ genre }}</Genre>
+    {%- endif %}{% if summary is not none -%}
+    <Summary>{{ summary }}</Summary>
+    {%- endif %}
+</ComicInfo>

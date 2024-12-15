@@ -1,0 +1,10 @@
+{
+  "bookSourceName": "漫画屋",
+  "bookSourceurl": "https://www.manhua55.com",
+  "ruleSearchName":"meta.og:novel:book_name",
+  "ruleSearchAuthor":"meta.og:novel:author",
+  "ruleSearchKind": "meta.og:novel:category",
+  "rulelntroduce": "p.comics-detail__desc",
+  "ruleCoverUrl": "meta.og:image",
+  "ruleChapterList": "id.chapter-items@tag.a"
+}

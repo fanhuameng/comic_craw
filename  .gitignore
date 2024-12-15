@@ -1,0 +1,9 @@
+# 过滤文件夹
+/.idea/
+/comic/
+/.venv*/
+# 文件
+*.log
+
+# html 解密文件
+decoder_manhua55.py
